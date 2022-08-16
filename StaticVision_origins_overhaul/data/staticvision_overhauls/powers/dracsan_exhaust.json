@@ -1,0 +1,10 @@
+{
+	"name": "Large Appetite",
+	"description":"You need more food for your body, energy consumption increased by 33%",
+  "type": "origins:modify_exhaustion",
+  "modifier": {
+    "name": "Extra exhaustion from large appetite",
+    "value": 0.33,
+    "operation": "multiply_base"
+  }
+}

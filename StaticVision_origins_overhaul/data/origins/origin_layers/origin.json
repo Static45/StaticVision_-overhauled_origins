@@ -3,6 +3,7 @@
 	"order": 2,
     "origins": [
         "staticvision_overhauls:moa",
-		"staticvision_overhauls:adrifulk"
+		"staticvision_overhauls:adrifulk",
+		"staticvision_overhauls:dracsan"
     ]
 }
