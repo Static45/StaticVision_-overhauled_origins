@@ -1,0 +1,21 @@
+{
+    "name": "AdriFulk",
+    "description": "A winged fox species that live on the islands of Aether.",
+    "powers": [
+		"origins:slow_falling",
+		"origins:elytra",
+		"origins:fall_immunity",
+		"staticvision_overhauls:armor_nerf_adri",
+		"staticvision_overhauls:nether_burn_adri",
+		"staticvision_overhauls:smol_adri",
+		"staticvision_overhauls:amethyst_drop_adri",
+		"staticvision_overhauls:no_shield_adri",
+		"staticvision_overhauls:doublejump_adri",
+		"staticvision_overhauls:idle_adri"
+    ],
+    "icon": {
+        "item": "minecraft:amethyst_shard"
+    },
+    "impact": 2,
+    "loading_priority": 0
+}

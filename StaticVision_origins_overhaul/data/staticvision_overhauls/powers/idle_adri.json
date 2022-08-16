@@ -1,0 +1,15 @@
+ {
+		"hidden": true,
+        "type": "origins:action_over_time",
+        "interval": 200,
+        "entity_action": {
+            "type": "origins:chance",
+            "action": {
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.fox.ambient",
+                "volume": 0.4,
+                "pitch": 0.4
+            },
+            "chance": 0.4
+        }
+ }

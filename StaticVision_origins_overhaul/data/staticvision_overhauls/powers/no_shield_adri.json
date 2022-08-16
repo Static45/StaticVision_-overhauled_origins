@@ -1,0 +1,11 @@
+{
+	"name": "Crushed wings",
+	"description": "You cannot use shields, don't want to crush your wings now.",
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "origins:shields"
+    }
+  }
+}

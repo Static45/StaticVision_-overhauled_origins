@@ -2,6 +2,7 @@
 	"enabled": true,
 	"order": 2,
     "origins": [
-        "staticvision_overhauls:moa"
+        "staticvision_overhauls:moa",
+		"staticvision_overhauls:adrifulk"
     ]
 }
