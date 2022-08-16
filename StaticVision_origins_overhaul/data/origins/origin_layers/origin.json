@@ -1,0 +1,7 @@
+{
+	"enabled": true,
+	"order": 2,
+    "origins": [
+        "staticvision_overhauls:xxxxxx"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "pack": {
+        "name": "StaticVision Overhauled Origins",
+        "id": "staticvision_overhauls",
+        "pack_format": 9,
+        "authors": [
+            "MelonVision and Static"
+        ],
+        "description": "Overhauls for vanilla origns and also extra content."
+    }
+}
