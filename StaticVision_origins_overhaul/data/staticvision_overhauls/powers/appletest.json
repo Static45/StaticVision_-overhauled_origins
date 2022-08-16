@@ -1,0 +1,22 @@
+{
+    "name": "Nature's blessing",
+    "description": "Eating whole fruits gives buffs.",
+    "loading_priority": 0,
+        "type": "origins:action_on_item_use",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:regeneration",
+            "duration": 100,
+            "amplifier": 1,
+            "show_particles": true,
+            "show_icon": true
+        }
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:apple"
+        }
+    }
+}

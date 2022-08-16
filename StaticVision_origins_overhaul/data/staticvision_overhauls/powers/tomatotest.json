@@ -1,0 +1,23 @@
+{
+    "name": "TomatoTest",
+    "description": "Tomatoes give Fire resistance for 15 seconds.",
+	"hidden": true,
+    "loading_priority": 0,
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:fire_resistance",
+            "duration": 300,
+            "amplifier": 0,
+            "show_particles": true,
+            "show_icon": true
+        }
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "farmersdelight:tomato"
+        }
+    }
+}

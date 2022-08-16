@@ -1,0 +1,22 @@
+{
+	"name": "Cozy sleep",
+    "description": "Everytime you wake up from sleep you will shed 4 feathers.",
+    "loading_priority": 0,
+  "type": "origins:action_on_wake_up",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:give",
+        "stack": {
+          "item": "minecraft:feather",
+		  "amount": 4
+        }
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.parrot.fly"
+      }
+    ]
+  }
+}

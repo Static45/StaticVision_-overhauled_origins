@@ -1,0 +1,23 @@
+{
+    "name": "MelonTest",
+    "description": "Melons give Jump boost 2 for 10 seconds when eaten.",
+	"hidden": true,
+    "loading_priority": 0,
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:jump_boost",
+            "duration": 200,
+            "amplifier": 1,
+            "show_particles": true,
+            "show_icon": true
+        }
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:melon_slice"
+        }
+    }
+}

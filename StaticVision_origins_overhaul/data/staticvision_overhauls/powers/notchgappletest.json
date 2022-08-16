@@ -1,0 +1,23 @@
+{
+    "name": "NotchGappleTest",
+    "description": "Notch apples give strength 2 for 90 seconds.",
+	"hidden": true,
+    "loading_priority": 0,
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:strength",
+            "duration": 1800,
+            "amplifier": 1,
+            "show_particles": true,
+            "show_icon": true
+        }
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:enchanted_golden_apple"
+        }
+    }
+}

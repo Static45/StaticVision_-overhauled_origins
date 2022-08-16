@@ -1,0 +1,16 @@
+{
+		"name": "Gift of the winds",
+		"description": "You get the ability of performing a power jump with an 7.5 secconds cooldown for a height of 5 blocks",
+	"type": "origins:launch",
+	"cooldown": 150,
+	"hud_render": {
+		"sprite_location": "origins:textures/gui/resource_bar.png",
+		"bar_index": 4
+	},
+	"sound": "entity.ender_dragon.flap",
+	"speed":1,
+	"key":{
+	"key":"key.origins.primary_active",
+	"continous":true
+	}
+}	

@@ -1,0 +1,21 @@
+{
+    "name": "SweetBerryTest",
+    "description": "Sweet berries give some extra food and saturation when eaten.",
+	"hidden": true,
+    "loading_priority": 0,
+    "type": "origins:modify_food",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:sweet_berries"
+        }
+    },
+    "food_modifier": {
+        "operation": "addition",
+        "value": 2
+    },
+    "saturation_modifier": {
+        "operation": "addition",
+        "value": 1.6
+    }
+}
