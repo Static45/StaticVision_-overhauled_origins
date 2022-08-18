@@ -1,0 +1,21 @@
+{
+    "name": "Merling",
+    "description": "placeholder",
+    "powers": [
+		"origins:water_vision",
+		"origins:aqua_affinity",
+		"origins:swim_speed",
+		"origins:like_water",
+		"origins:aquatic",
+		"origins:conduit_power_on_land",
+		"origins:water_breathing",
+		"staticvision_overhauls:potion_air_merling"
+		
+		
+    ],
+    "icon": {
+        "item": "minecraft:egg"
+    },
+    "impact": 1,
+    "loading_priority": 0
+}
