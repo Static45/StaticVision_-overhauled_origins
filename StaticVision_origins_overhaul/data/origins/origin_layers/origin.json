@@ -4,6 +4,7 @@
     "origins": [
         "staticvision_overhauls:moa",
 		"staticvision_overhauls:adrifulk",
-		"staticvision_overhauls:dracsan"
+		"staticvision_overhauls:dracsan",
+		"staticvision_overhauls:feline"
     ]
 }

@@ -1,4 +1,4 @@
-v{
+{
     "type": "origins:active_self",
     "cooldown": 600,
     "hud_render": {

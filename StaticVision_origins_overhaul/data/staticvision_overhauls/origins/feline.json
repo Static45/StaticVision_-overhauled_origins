@@ -1,0 +1,20 @@
+{
+    "name": "Feline",
+    "description": "placeholder.",
+    "powers": [
+		"origins:sprint_jump",
+		"origins:velvet_paws",
+		"origins:nine_lives",
+		"origins:fall_immunity",
+		"origins:scare_creepers",
+		"origins:cat_vision",
+		"staticvision_overhauls:milk_feline",
+		"staticvision_overhauls:weak_arms_feline",
+		"staticvision_overhauls:dash_feline"
+    ],
+    "icon": {
+        "item": "minecraft:orange_wool"
+    },
+    "impact": 1,
+    "loading_priority": 0
+}

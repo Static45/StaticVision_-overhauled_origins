@@ -1,0 +1,26 @@
+{
+    "name": "Moa",
+    "description": "Moas: peaceful and majestic giant birds.",
+    "powers": [
+		"staticvision_overhauls:moaclaws",
+		"origins:slow_falling",
+		"origins:like_air",
+		"origins:tailwind",
+		"staticvision_overhauls:moafeathers",
+		"staticvision_overhauls:moajump",
+		"staticvision_overhauls:moafragile",
+        "staticvision_overhauls:melontest",
+		"staticvision_overhauls:tomatotest",
+		"staticvision_overhauls:notchgappletest",
+		"staticvision_overhauls:glowberrytest",
+		"staticvision_overhauls:sweetberrytest",
+		"staticvision_overhauls:appletest",
+		"staticvision_overhauls:gappletest",
+		"staticvision_overhauls:chorustest"
+    ],
+    "icon": {
+        "item": "minecraft:egg"
+    },
+    "impact": 1,
+    "loading_priority": 0
+}

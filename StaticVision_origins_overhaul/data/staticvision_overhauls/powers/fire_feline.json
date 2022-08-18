@@ -1,0 +1,11 @@
+{
+	"name": "flammable fur",
+	"description": "You take 50% more fire damage"
+  "modifier": {
+    "value": 0.5,
+    "operation": "multiply_base"
+  },
+  "damage_condition": {
+    "type": "origins:fire"
+}
+}
