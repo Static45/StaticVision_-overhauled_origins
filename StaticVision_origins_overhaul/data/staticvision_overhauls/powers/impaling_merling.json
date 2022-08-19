@@ -1,0 +1,201 @@
+{
+	"type": "origins:multiple",
+	"name": "Trident master",
+	"description": "Imapling now works as sharpness.",
+	"impaling_one": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_damage",
+			"operation": "addition",
+			"value": 1
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:enchantment",
+				"enchantment": "minecraft:impaling",
+				"comparison": "==",
+				"compare_to": 1
+			}
+		}
+	},
+	"tooltip_one": {
+		"type": "origins:tooltip",
+		"item_condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:enchantment",
+					"enchantment": "minecraft:impaling",
+					"comparison": "==",
+					"compare_to": 1
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:trident"
+					}
+				}
+			]
+		},
+		"text": "§9+0.5 Damage."
+	},
+	"impaling_two": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_damage",
+			"operation": "addition",
+			"value": 2
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:enchantment",
+				"enchantment": "minecraft:impaling",
+				"comparison": "==",
+				"compare_to": 2
+			}
+		}
+	},
+	"tooltip_two": {
+		"type": "origins:tooltip",
+		"item_condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:enchantment",
+					"enchantment": "minecraft:impaling",
+					"comparison": "==",
+					"compare_to": 2
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:trident"
+					}
+				}
+			]
+		},
+		"text": "§9+1.0 Damage."
+	},
+	"impaling_three": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_damage",
+			"operation": "addition",
+			"value": 3
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:enchantment",
+				"enchantment": "minecraft:impaling",
+				"comparison": "==",
+				"compare_to": 3
+			}
+		}
+	},
+	"tooltip_three": {
+		"type": "origins:tooltip",
+		"item_condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:enchantment",
+					"enchantment": "minecraft:impaling",
+					"comparison": "==",
+					"compare_to": 3
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:trident"
+					}
+				}
+			]
+		},
+		"text": "§9+1.5 Damage."
+	},
+	"impaling_four": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_damage",
+			"operation": "addition",
+			"value": 4
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:enchantment",
+				"enchantment": "minecraft:impaling",
+				"comparison": "==",
+				"compare_to": 4
+			}
+		}
+	},
+	"tooltip_four": {
+		"type": "origins:tooltip",
+		"item_condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:enchantment",
+					"enchantment": "minecraft:impaling",
+					"comparison": "==",
+					"compare_to": 4
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:trident"
+					}
+				}
+			]
+		},
+		"text": "§9+2.0 Damage."
+	},
+	"impaling_five": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.attack_damage",
+			"operation": "addition",
+			"value": 5
+		},
+		"tick_rate": 20,
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:enchantment",
+				"enchantment": "minecraft:impaling",
+				"comparison": "==",
+				"compare_to": 5
+			}
+		}
+	},
+	"tooltip_five": {
+		"type": "origins:tooltip",
+		"item_condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:enchantment",
+					"enchantment": "minecraft:impaling",
+					"comparison": "==",
+					"compare_to": 5
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:trident"
+					}
+				}
+			]
+		},
+		"text": "§9+2.5 Damage."
+	}
+
+}

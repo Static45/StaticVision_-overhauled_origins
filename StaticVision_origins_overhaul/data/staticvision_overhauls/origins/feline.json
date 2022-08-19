@@ -10,8 +10,7 @@
 		"origins:cat_vision",
 		"staticvision_overhauls:milk_feline",
 		"staticvision_overhauls:weak_arms_feline",
-		"staticvision_overhauls:dash_feline",
-	    	"staticvision_overhauls:fire_feline"
+		"staticvision_overhauls:dash_feline"
     ],
     "icon": {
         "item": "minecraft:orange_wool"
