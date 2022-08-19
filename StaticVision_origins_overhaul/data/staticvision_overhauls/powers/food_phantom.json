@@ -1,0 +1,9 @@
+{
+	"name": "Insatiable",
+	"description": "Food buffs from farmers delight dont work",
+  "type": "origins:effect_immunity",
+  "effects": [
+    "farmersdelight:comfort",
+    "farmersdelight:nourishment"
+  ]
+}

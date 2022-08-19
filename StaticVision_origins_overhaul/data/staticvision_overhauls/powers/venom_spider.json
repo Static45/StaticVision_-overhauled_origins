@@ -1,0 +1,31 @@
+
+{
+    "name": "poisonous attacks",
+    "description": "Your attacks have a 75% of withering your target",
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+        "type": "origins:chance",
+        "chance": 0.9,
+        "action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:apply_effect",
+                "effects": [
+                    {
+                        "effect": "minecraft:wither",
+                        "duration": 140,
+                        "amplifier": 0,
+                        "show_particles": false,
+                        "show_icon": false
+                    }
+                ]
+            }
+        }
+    },
+    "cooldown": 100,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 1
+    }
+}
