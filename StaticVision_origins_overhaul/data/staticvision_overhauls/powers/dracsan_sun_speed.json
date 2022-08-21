@@ -1,0 +1,14 @@
+{
+	"name": "Photosensibility",
+	"description": "Sunlight weakens you, reducing all your stats",
+    "type": "origins:attribute",
+    "modifier": {
+    "attribute": "minecraft:generic.movement_speed",
+    "value": -0.10,
+    "operation": "multiply_base"
+  }
+  "condition":
+      {
+        "type": "origins:exposed_to_sun"
+      }
+}

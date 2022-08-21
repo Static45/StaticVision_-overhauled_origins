@@ -1,0 +1,14 @@
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:small_fireball",
+    "cooldown": 10,
+    "hud_render": {
+        "should_render": true
+    },
+    "interval": 8,
+    "speed": 5,
+    "count": 3,
+    "divergence": 0.1,
+    "name": "Fireball salvo",
+    "description" : "placeholder"
+}

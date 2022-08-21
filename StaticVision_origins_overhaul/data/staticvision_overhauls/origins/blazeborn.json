@@ -1,0 +1,21 @@
+{
+    "name": "blazeborn",
+    "description": "placeholder",
+    "powers": [
+		"origins:fire_immunity",
+		"origins:nether_spawn",
+		"origins:burning_wrath",
+		"origins:hotblooded",
+		"origins:water_vulnerability",
+		"origins:flame_particles",
+		"origins:damage_from_snowballs",
+        "origins:damage_from_potions",
+		"staticvision_overhauls:fireball_blaze",
+		"staticvision_overhauls:ice_dmg_blaze"
+    ],
+    "icon": {
+        "item": "minecraft:fire_charge"
+    },
+    "impact": 1,
+    "loading_priority": 0
+}

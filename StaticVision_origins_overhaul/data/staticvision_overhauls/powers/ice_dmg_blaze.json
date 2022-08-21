@@ -1,0 +1,35 @@
+{
+    "name": "Ice isn't good...",
+    "description": "You get slowness while being in cold environments, snowballs and sitting on ice will damage you",
+    "condition": {
+        "type": "origins:on_block",
+        "block_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:ice"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:packed_ice"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:blue_ice"
+                }
+            ]
+        }
+    },
+    "type": "origins:damage_over_time",
+    "interval": 20,
+    "onset_delay": 1,
+    "damage": 2,
+    "damage_easy": 1,
+    "damage_source": {
+        "name": "freezing",
+        "bypasses_armor": true,
+        "unblockable": true
+    },
+    "protection_effectiveness": 0
+}
