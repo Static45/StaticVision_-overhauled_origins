@@ -1,8 +1,0 @@
-{
-	"name": "Momentum",
-	"description": "You are immune to slowness potion effect.",
-  "type": "origins:effect_immunity",
-  "effects": [
-    "minecraft:slowness"
-  ]
-}
