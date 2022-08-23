@@ -1,0 +1,33 @@
+{
+	"name": "Endurance",
+    "description": "Every 5 minutes you can withstand fatal damage",
+    "type": "origins:multiple",
+    "cooldown": {
+        "type": "origins:cooldown",
+        "cooldown": 6000,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+            "bar_index": 9
+        }
+    },
+    "prevent": {
+        "type": "origins:prevent_death",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:trigger_cooldown",
+                    "power": "*:*_cooldown"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_cooldown",
+            "comparison": "==",
+            "compare_to": 0
+        }
+    }
+    
+}
