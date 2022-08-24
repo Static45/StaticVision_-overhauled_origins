@@ -1,17 +1,14 @@
 {
     "name": "Drac'san",
-    "description": "Huge and heavy reptilian that has is weakened by sunlight. Resilient and",
+    "description": "Huge and heavy reptilian that has is weakened by sunlight.",
     "powers": [
-		"staticvision_overhauls:dracsan_dodge",
 		"staticvision_overhauls:dracsan_exhaust",
-		"staticvision_overhauls:dracsan_speed",
+		"staticvision_overhauls:dracsan_endurance",
 		"staticvision_overhauls:dracsan_health",
 		"staticvision_overhauls:dracsan_speed",
-		"staticvision_overhauls:dracsan_sun_attack",
-		"staticvision_overhauls:dracsan_sun_mining",
-		"staticvision_overhauls:dracsan_sun_speed",
+		"staticvision_overhauls:dracsan_sun",
 		"staticvision_overhauls:dracsan_wrath",
-		"staticvision_overhauls:dracsan_momentum"
+		"staticvision_overhauls:dracsan_shield"
     ],
     "icon": {
         "item": "minecraft:netherite_axe"

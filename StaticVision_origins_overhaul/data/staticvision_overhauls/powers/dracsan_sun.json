@@ -1,23 +1,23 @@
 {
     "type": "origins:multiple",
-    "name": "Photosensitive Scales",
-    "description": "When exposed to sunlight, you will take 50% more damage, and exhaust over time, and the more hungry you are, the harsher is the burn.",
+    "name": "Heliophobia",
+    "description": "When exposed to sunlight, you will take 2x damage, and exhaust over time.",
     "badges": [
         {
             "type": "origins:tooltip",
             "sprite": "origins:textures/gui/badge/info.png",
-            "text": "If you're unable to sprint, the sun will do damage over time. If you're starving, the sun will set you on fire."
+            "text": "If you're unable to sprint, the sun will do damage over time. If you're starving, the sun will light you on fire."
         },
         {
             "type": "origins:tooltip",
             "sprite": "origins:textures/gui/badge/star.png",
-            "text": "Disabled by the following: Invisibility and Fire Resistance potion effects, Leather Helmet (at the cost of durability)"
+            "text": "Disabled by the following:\n- Invisibility\n- Fire Resistance\n- Leather Helmet (at the cost of durability)"
         }
     ],
     "damage": {
         "type": "origins:modify_damage_taken",
         "modifier": {
-            "operation": "multiply_base_additive",
+            "operation": "multiply_base",
             "value": 1
         },
         "condition": {
