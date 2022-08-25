@@ -1,6 +1,13 @@
 {
-	"name": "Endurance",
-    "description": "You have 2 extra hearts",
+	"name": "Sturdy Scales",
+    "description": "Your heavy scales increases your survivability.",
+	"badges": [
+        {
+            "type": "origins:tooltip",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "You have 2 extra hearts."
+        }
+    ],
     "loading_priority": 0,
   "type": "origins:attribute",
   "modifier": {

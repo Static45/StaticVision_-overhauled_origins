@@ -7,7 +7,9 @@
 		"staticvision_overhauls:dracsan_health",
 		"staticvision_overhauls:dracsan_speed",
 		"staticvision_overhauls:dracsan_sun",
-		"staticvision_overhauls:dracsan_shield"
+		"staticvision_overhauls:dracsan_wrath",
+		"staticvision_overhauls:dracsan_shield",
+		"staticvision_overhauls:dracsan_food"
     ],
     "icon": {
         "item": "minecraft:netherite_axe"

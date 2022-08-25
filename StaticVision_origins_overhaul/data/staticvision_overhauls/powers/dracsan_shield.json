@@ -1,6 +1,13 @@
 {
     "name": "Shield Bash",
-    "description": "Press [ATTACK] while blocking with a shield, to bash entities away.",
+    "description": "While you're defending yourself with a shield,you can bash entities away.",
+	"badges": [
+        {
+            "type": "origins:tooltip",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "Clicking left click while holding right click to raise your shield allows you to inflict knockback to your enemies."
+        }
+    ],
     "condition":
     {
         "type": "origins:using_item",

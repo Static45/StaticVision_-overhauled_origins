@@ -1,0 +1,17 @@
+{
+	"name": "Iron belly",
+	"description": "Foods that have a negative effect on a regular human's health have no affect on you",
+	"badges": [
+        {
+            "type": "origins:tooltip",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "You are immune to Hunger and Nausea from vanilla, and Tipsy from Brewin' and Chewin' Farmer's delight add-on."
+        }
+    ],
+  "type": "origins:effect_immunity",
+  "effects": [
+    "minecraft:hunger",
+	"minecraft:nausea",
+	"brewinandchewin:tipsy"
+  ]
+}

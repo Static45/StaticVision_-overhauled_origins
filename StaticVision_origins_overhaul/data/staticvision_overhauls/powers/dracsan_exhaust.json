@@ -1,6 +1,13 @@
 {
 	"name": "Large Appetite",
-	"description":"You need more food for your body, energy consumption increased by 20%",
+	"description":"Being a huge and strong being means you will need extra food to satisfy your needs.",
+	"badges": [
+        {
+            "type": "origins:tooltip",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "Hunger consumption increased by 20%"
+        }
+    ],
   "type": "origins:modify_exhaustion",
   "modifier": {
     "name": "Extra exhaustion from large appetite",
