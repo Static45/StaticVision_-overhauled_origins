@@ -1,0 +1,17 @@
+{
+    "name": "Shulk",
+    "description": "Placeholder.",
+    "powers": [
+		"origins:shulker_inventory",
+		"origins:natural_armor",
+		"origins:strong_arms",
+		"origins:strong_arms_break_speed",
+		"origins:no_shield",
+		"staticvision_overhauls:shulk_exhaust"
+    ],
+    "icon": {
+        "item": "minecraft:shulker_shell"
+    },
+    "impact": 1,
+    "loading_priority": 0
+}

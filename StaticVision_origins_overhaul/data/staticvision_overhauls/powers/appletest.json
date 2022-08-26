@@ -1,6 +1,13 @@
 {
     "name": "Nature's blessing",
     "description": "Eating whole fruits gives buffs.",
+	   "badges": [
+        {
+            "type": "origins:tooltip",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "Here's the list of all food buffs:\n- Apples give regeneration 1 up to 1 heart healed\n- Berries give a bit more hunger and saturation.\n- Glow berries highlight you for 10 seconds.\n- Golden apples give 4 absorption hearts.\n- Notch apples give strength 2 for 90 seconds.\n- Melons give jump boost 2 for 10 seconds.\n- Chorus Fruit gives Resistance for a second\n- Tomatoes from Farmer's Delight mod give Fire resistance for 15 seconds."
+        }
+    ],
     "loading_priority": 0,
         "type": "origins:action_on_item_use",
     "entity_action": {
